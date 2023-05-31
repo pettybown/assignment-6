@@ -11,7 +11,20 @@ public class Edge<V> {
     public Vertex getDest() {
         return dest;
     }
+    public void setDest(Vertex dest) {
+        this.dest = dest;
+    }
     public Double getWeight() {
         return weight;
     }
+    public void setWeight(Double weight) {
+        this.weight = weight;
+    }
+    public Vertex getSource() {
+        return source;
+    }
+    public void setSource(Vertex source) {
+        this.source = source;
+    }
+
 }

@@ -7,5 +7,17 @@ public class Vertex<V> {
     public void addAdjVertex(Vertex<V> dest, double weight) {
         adjVertices.put(dest, weight);
     }
+    public V getData() {
+        return data;
+    }
+    public Vertex(V data) {
+        this.data = data;
+        this.adjVertices = new HashMap<>();
+    }
+    @Override
+    public String toString() {
+        return "Vertex " + this.data;
+    }
+
 
 }
