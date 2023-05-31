@@ -8,4 +8,10 @@ public class Edge<V> {
         this.dest = dest;
         this.weight = weight;
     }
+    public Vertex getDest() {
+        return dest;
+    }
+    public Double getWeight() {
+        return weight;
+    }
 }
